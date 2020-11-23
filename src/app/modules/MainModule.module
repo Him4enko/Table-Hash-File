@@ -1,15 +1,6 @@
 {
   "props": [],
   "components": {
-    "dirChooser": {
-      "type": "script\\DirectoryChooserScript",
-      "x": 112,
-      "y": 48,
-      "props": {
-        "inputNode": "",
-        "actionNode": ""
-      }
-    },
     "ini": {
       "type": "script\\storage\\IniStorage",
       "x": 192,
@@ -18,6 +9,15 @@
         "path": "config.ini",
         "autoSave": "1",
         "multiLineValues": "1"
+      }
+    },
+    "dirChooser": {
+      "type": "script\\DirectoryChooserScript",
+      "x": 112,
+      "y": 48,
+      "props": {
+        "inputNode": "",
+        "actionNode": ""
       }
     }
   }

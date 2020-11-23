@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="Him4enko" authorOS="Windows 10" createdAt="1598267428488" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Table-Hash-File" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1605808202138">
+<project author="Him4enko" authorOS="Windows 10" createdAt="1598267428488" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Table-Hash-File" packageName="app" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1606150568379">
   <tree>
     <expanded>
     <path src=""/>
@@ -13,9 +13,9 @@
   <openedFiles>
   <file src="Table-Hash-File.dnproject"/>
     <file src="src/app/modules/MainModule.php"/>
-    <file src="src/app/forms/MainForm.php"/>
+    <file selected="1" src="src/app/forms/MainForm.php"/>
     <file src=".gitignore"/>
-    <file selected="1" src="src/.theme/style.fx.css"/>
+    <file src="src/.theme/style.fx.css"/>
   </openedFiles>
   <files/>
   <behaviours>

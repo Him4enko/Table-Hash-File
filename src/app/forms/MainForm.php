@@ -8,12 +8,12 @@ use php\lang\Thread;
 class MainForm extends AbstractForm
 {
 
+
     /**
      * @event button.action 
      */
     function doButtonAction(UXEvent $e = null)
     {    
-    
          $dir = $this->dirChooser->execute();
             $list = $dir->findFiles();
             $count = count($list);
@@ -30,10 +30,28 @@ class MainForm extends AbstractForm
                 
         });
             $thread->start();
+      
          
     }
+
+    
+
+    /**
+     * @event table.click 
+     */
+    function doTableClick(UXMouseEvent $e = null)
+    {    
+        if($this->table->selectedItem == true){
+        $mass = $this->table->selectedItem['Hash'];
+        UXClipboard::setText($mass);
+         $this->toast('Text is copied successfully!');
+        }else{
+            
+        }
+    }
+
+
    
 
 
 }
-
